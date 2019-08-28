@@ -1,0 +1,38 @@
+img {float:left}
+
+header {
+    background-color: pink;}
+
+nav {background-color: ;}
+
+header>nav>ul>li {
+    display: inline;
+    background-color: aqua;
+    padding:10px;
+    float: right;}
+
+header>h1 {
+    text-align: center;
+    }    
+
+
+main {
+    padding:10px ;
+    background-color: greenyellow;}
+
+main>article {
+    background-color: darkolivegreen;
+    float: left;
+    text-align: center;
+    border: 5px solid black; 
+    width: 30%}
+
+footer {background-color: pink}
+
+footer>nav{
+    display: inline;
+    padding:10px;
+    background-color: aqua;
+    float: left;}
+
+
