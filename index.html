@@ -7,29 +7,38 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JS Ice Cream</title>
     <link href="styles.css" type="text/css" rel="stylesheet">
+    <script src="js/add-contents.js"></script>
 </head>
 
 <body>
     <header>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Ice-cream.svg" alt="an ice cream" width="50px"
-            height="50px">
+        <img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Ice-cream.svg" alt="an ice cream">
 
-        <nav>
+        <nav id="nav-header">
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Order</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="order.html">Order</a></li>
             </ul>
         </nav>
+        
+        <script>document.write(giveTimelyGreeting());</script>
+        <script>document.write(giveName());</script>
 
-        <script src="js/time.js"></script>         <script src="js/name.js"></script>        
+
+        <!-- <script src="js/time.js"></script> 
+        <script src="js/name.js"></script> -->
 
 
         <h1>
             Welcome to JS Ice Cream
         </h1>
 
-        <script src="js/like.js"></script>
+        <h2>where the ice cream matters</h2>
+
+        <!-- <script src="js/like.js"></script> -->
+        <script>document.write(giveLiking());</script>
+
 
     </header>
 
@@ -64,7 +73,7 @@
 
     <footer>
 
-        <nav>
+        <nav id="nav-footer">
             <ul>
                 <li><a href="">Location</a></li>
                 <li><a href="">Contact</a></li>
@@ -72,7 +81,8 @@
             </ul>
         </nav>
 
-        &copy;2021
+        <section id="copyright"> &copy;2019
+        </section>
 
     </footer>
 </body>
