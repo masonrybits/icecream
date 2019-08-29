@@ -19,6 +19,10 @@ li {
     display: inline;
 }
 
+h2 {
+    text-align: center;
+}
+
 header>nav>ul>li {
     display: inline;
     background-color: aqua;
@@ -50,3 +54,13 @@ footer>nav{
     float: left;}
 
 
+#copyright {
+    display: inline;
+    background-color: brown;
+    padding: 10px;
+}
+
+#logos {
+    width: 30px;
+    height: 30px;
+}

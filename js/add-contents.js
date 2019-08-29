@@ -19,7 +19,6 @@ function giveTimelyGreeting() {
 
 function giveLiking() {
     var txt;
-
     var r = confirm("Do you like vegan ice cream?");
     if (r == true) {
         txt = "We have vegan ice cream!";
@@ -27,11 +26,34 @@ function giveLiking() {
         txt = "We have non-vegan ice cream!";
     }
 
-        return txt; 
+    return txt;
 }
 
 function giveName() {
     var name = prompt('What\' your name?')
-    return name; 
+    while (name === "" || name === isNaN) {
+        name = prompt("please enter your name");
+    }
+    return name;
 }
+
+function giveNumber() {
+    var cone = '<img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Ice-cream.svg" alt="an ice cream">'
+    var quantity = prompt("How many ice cream would you like?");
+    quantity = Number(quantity);
+    var cones = "";
+
+
+while (isNaN(quantity)) {
+    quantity = prompt("How many ice cream would you like?");
+    quantity = Number(quantity);
+}
+
+for (var i = 0; i < quantity; i++) {
+    cones = cones + cone;
+}
+    return cones;
+ }
+
+
 
