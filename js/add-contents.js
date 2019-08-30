@@ -31,8 +31,8 @@ function giveLiking() {
 
 function giveName() {
     var name = prompt('What\' your name?')
-    while (name === "" || name === isNaN) {
-        name = prompt("please enter your name");
+    while (name === "") {
+        name = prompt("Please enter your name!");
     }
     return name;
 }

@@ -15,49 +15,61 @@ header>nav>ul {
     border-block-color: pink;
 }
 
+a {
+    text-decoration: none;
+}
+
 li {
     display: inline;
 }
 
 h2 {
     text-align: center;
+    text-shadow: 2px 2px palevioletred;
 }
 
 header>nav>ul>li {
     display: inline;
-    background-color: aqua;
+    background-color: palevioletred;
     padding:10px;
     float: right;}
 
 header>h1 {
     text-align: center;
+    text-shadow: 2px 2px palevioletred;
     }    
 
 
 main {
     padding:10px ;
-    background-color: greenyellow;}
+    background-color: palevioletred;
+    height: 800px;
+}
 
 main>article {
-    background-color: darkolivegreen;
+    background-color: pink;
     float: left;
     text-align: center;
-    border: 5px solid black; 
-    width: 30%}
+    border: 2px solid black;
+    margin: 3px; 
+    width: 32%;
+    height: 300px;
+}
 
 footer {background-color: pink}
 
-footer>nav{
+footer>nav>ul>li{
     display: inline;
     padding:10px;
-    background-color: aqua;
-    float: left;}
+    background-color: pink;
+}
 
 
 #copyright {
     display: inline;
-    background-color: brown;
+    background-color: pink;
     padding: 10px;
+    float: right;
 }
 
 #logos {
